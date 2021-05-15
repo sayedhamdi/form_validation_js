@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Survey Form
+        </title>
+        <link rel="stylesheet" href="styles.css"/>
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <header>
+  <h1 id="title">Survey Form </h1>
+  <p id="description">We would really appreciate it if you fill in this form carefully.</p>
+</header>
+<main id="main">
+<form id="survey-form">
+   <div class="form-group">
+     <label id="name-label">Name</label>
+     <input type="text" placeholder="Enter your name" name="" id="name"/>
+  </div>
+  <div class="form-group">
+     <label id="email-label">Email</label>
+     <input type="email" placeholder="Enter your email" name="email" id="email"/>
+  </div>
+  <div class="form-group">
+     <label id="number-label">Age(optional)</label>
+     <input type="number" placeholder="Enter your age" name="age" id="age"/>
+  </div>
+    <div class="form-group">
+     <label id="role-label">What best describes your role?</label>
+     <select id="dropdown">
+         <option value="" selected disabled >Select Current role</option>
+        <option value="">Student</option>
+        <option value="">Professor</option>
+      </select>
+  </div>
+  <div class="form-group">
+    <label>Would you recommand this course to your friend ?</label>
+    <label>
+      <input type="radio" name="radio" id="" value="definetely"/>Definetely
+    </label>
+     <label>
+      <input type="radio" name="radio" id="" value="maybe"/>Maybe
+    </label>
+     <label>
+      <input type="radio" name="radio" id="" value="not sure"/>Not sure
+    </label>
+  </div>
+   <div class="form-group">
+     <label id="role-label">What is your favourite topic ?</label>
+     <select id="dropdown2">
+         <option value="" selected disabled >Select Current role</option>
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="js">Javascript</option>
+      </select>
+  </div>
+  <div class="form-group">
+    <label>What would you want to see in the next lectures ?</label>
+    <label>
+      <input type="checkbox" name="check" id="" value="1"/>ES6
+    </label>
+     <label>
+      <input type="checkbox" name="check" id="" value="2"/>Javascript Arrays
+    </label>
+     <label>
+      <input type="checkbox" name="check" id="" value="3"/>Front end concepts
+    </label>
+  </div>
+  <div class="form-group">
+    <label>Any other suggestions ?</label>
+    <textarea>
+    </textarea>
+  </div>
+    <input id ="submit" type="submit" value="submit">
+</form>
+  
+</main>
+    </body>
+</html>
